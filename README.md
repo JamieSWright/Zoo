@@ -10,7 +10,7 @@ This Playwright test automates the process of navigating to the Edinburgh Zoo Ti
 4. If the cookie modal appears, click "Accept".
 5. Verify the URL is correct.
 6. Verify the page title is correct.
-7. Verify video holder is present and visible.**
+7. Verify video holder is present and visible.
 8. Close the incognito browser context.
 
 ## How to Run the Test

@@ -1,4 +1,5 @@
-const { test, expect } = require('@playwright/test');
+import { test, expect } from "@playwright/test"
+// Test to navigate to the Edinburgh Zoo Tiger Cam page and verify its accessibility and content
 
 test('Navigate to Edinburgh Zoo Tiger Cam', async ({ browser }) => {
   // Creating an Incognito Browser Context
@@ -7,8 +8,7 @@ test('Navigate to Edinburgh Zoo Tiger Cam', async ({ browser }) => {
 
   // Go to the tiger cam page
   await page.goto('https://www.edinburghzoo.org.uk/animals/webcams/tiger-cam');
-  // Wait for the page to load
-  await page.waitForLoadState('networkidle');
+ 
   // If the cookie modal is visible, click Accept
   const modal = page.locator('#udc-holder-modal');
   if (await modal.isVisible()) {

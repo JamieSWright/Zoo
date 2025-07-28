@@ -27,5 +27,5 @@ This Playwright test automates the process of navigating to the Edinburgh Zoo Ti
 - Playwright
 
 ## Notes
-- This test checks direct navigation to the Tiger Cam page, cookie consent handling, and page metadata.
+
 

@@ -3,13 +3,14 @@
 This Playwright test automates the process of navigating to the Edinburgh Zoo Tiger Cam page and verifying its accessibility and content.
 
 ## Test Steps
-1. Create an incognito browser context.
-2. Open a new page in the context.
-3. Navigate directly to the Tiger Cam page: https://www.edinburghzoo.org.uk/animals/webcams/tiger-cam
-4. Wait for the page to finish loading.
-5. If a cookie consent modal appears, click the "Accept" button.
-6. Verify the URL is correct.
-7. Verify the page title is "Watch the Tigers live! | Edinburgh Zoo".
+
+1. Open an incognito browser context.
+2. Navigate to the Edinburgh Zoo Tiger Cam page.
+3. Wait for the page to load.
+4. If the cookie modal appears, click "Accept".
+5. Verify the URL is correct.
+6. Verify the page title is correct.
+7. Verify video holder is present and visible.**
 8. Close the incognito browser context.
 
 ## How to Run the Test

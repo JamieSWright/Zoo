@@ -19,7 +19,10 @@ test('Navigate to Edinburgh Zoo Tiger Cam', async ({ browser }) => {
   await expect(page).toHaveURL('https://www.edinburghzoo.org.uk/animals/webcams/tiger-cam');
   // Verify the page title is correct
   await expect(page).toHaveTitle('Watch the Tigers live! | Edinburgh Zoo');
-  
+
+  // Verify that an element with class "video-holder" is present and visible
+  await expect(page.locator('.video-holder')).toBeVisible({ timeout: 5000 });
+
   // Close the incognito context
   await context.close();
 });

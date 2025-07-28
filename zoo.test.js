@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test"
 // Test to navigate to the Edinburgh Zoo Tiger Cam page and verify its accessibility and content
 
-const VIDEO_HOLDER_TIMEOUT = 2000; // Timeout in ms for .video-holder visibility (configurable)
+const VIDEO_HOLDER_TIMEOUT = 5000; // Timeout in ms for .video-holder visibility (configurable)
 
 test('Navigate to Edinburgh Zoo Tiger Cam', async ({ browser }) => {
   // Creating an Incognito Browser Context

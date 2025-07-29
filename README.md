@@ -3,6 +3,10 @@
 
 This Playwright test automates the process of navigating to the Edinburgh Zoo Tiger Cam page and verifies its accessibility (such as correct URL and page title) and content (such as the presence and visibility of the video holder).
 
+## Requirements
+- Node.js v21+
+- Playwright
+
 ## Test Steps
 
 1. Open an incognito browser context.
@@ -30,9 +34,6 @@ For consistency, use the latest stable version of Playwright by running:
 > npm install -D playwright@latest
 > ```
 
-## Requirements
-- Node.js
-- Playwright
 
 ## Notes
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⣀⠀⠀⠀⢀⡤⠤⠤⣄⠀⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
